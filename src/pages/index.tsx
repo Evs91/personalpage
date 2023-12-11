@@ -39,11 +39,11 @@ const ACTIONS: Array<NavigationItem> = [
 
 export default function HomePage(): JSX.Element {
 	const today = new Date();
-	const birthday = new Date('1997-08-09');
+	const birthday = new Date('1991-01-12');
 	const isBirthday =
 		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const description = `I am a software engineer & games developer`;
+	const description = `I am an IT Systems Administrator`;
 
 	return (
 		<Layout.Default>
